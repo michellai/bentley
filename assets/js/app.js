@@ -24,11 +24,7 @@ $(document).ready(function() {
   var windowScroll;
 
   // Apply Fittext to article titles to make it scale responsively in a smooth fashion
-<<<<<<< HEAD
-  $artTitle.fitText(1, { minFontSize: '34px' });
-=======
   $artTitle.fitText(1, { minFontSize: '24px', maxFontSize: '81px' });
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 
   // Identify if visitor has a large enough viewport for parallaxing title
   function isLargeViewport() {
@@ -63,11 +59,7 @@ $(document).ready(function() {
     //Slow scroll of .art-header-inner scroll and fade it out
     $artHeaderInner.css({
       'margin-top' : -(windowScroll/3)+"px",
-<<<<<<< HEAD
-      'opacity' : 1-(windowScroll/550)
-=======
       'opacity' : 1-(windowScroll/250)
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
     });
 
     //Slowly parallax the background of .art-header
@@ -95,18 +87,6 @@ $(document).ready(function() {
 		$('.art-header').css('background-size','100%');
 		
 		// Change color scheme to white
-<<<<<<< HEAD
-		$('#logo h1').css('color','white');
-		$('.art-title').css('color','white');
-		$('.art-subtitle').css('color','white');
-		$('.art-time').css('color','white');
-		$('.nav-primary li a').css('color','white');
-		
-		// Add Text Shadows
-		$('.art-title').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
-		$('.art-subtitle').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
-		$('.art-time').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
-=======
 	/*	$('#logo h1').css('color','white');
 		$('.art-title').css('color','white');
 		$('.art-subtitle').css('color','white');
@@ -116,7 +96,6 @@ $(document).ready(function() {
 		// Add Text Shadows
 		$('.art-title').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
 		$('.art-subtitle').css('text-shadow','3px 3px 0 rgba(0,0,0,0.1), -1px -1px 0 rgba(0,0,0,0.1), 1px -1px 0 rgba(0,0,0,0.1), -1px 1px 0 rgba(0,0,0,0.1), 1px 1px 0 rgba(0,0,0,0.1)');
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 		
 	}
 	$postImage.remove();
@@ -161,8 +140,4 @@ $(document).ready(function() {
 	// Instantiation
 	$('article').smarten();
 
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar

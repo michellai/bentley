@@ -3,22 +3,14 @@
 
 /* Reset & Basics (Inspired by E. Meyers)
 ================================================== */
-<<<<<<< HEAD
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, cite, code, em, img, small, strong, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, embed, figure, figcaption, footer, header, hgroup, menu, nav, section, summary, time, audio, video {
-=======
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, cite, code, em, img, small, strong, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, embed, figure, figcaption, footer, header, hgroup, menu, section, summary, time, audio, video {
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
-<<<<<<< HEAD
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, time, nav, section {
-=======
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, time, section {
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   display: block; }
 html, body, .wrapper {
   min-height: 100%;
@@ -39,28 +31,18 @@ body {
   color: #333;
   background: #fff;
 }
-<<<<<<< HEAD
-
-=======
 .lines {
   width:100%;
 }
 .gist-file{
   margin-bottom:28px !important;
 }
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 
 /* Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-<<<<<<< HEAD
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
-=======
 //  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
   font-family: 'Open Sans Condensed', sans-serif;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   font-weight: 700;
   color: #000;
   text-rendering: optimizeLegibility;
@@ -93,11 +75,8 @@ h5 {
 
 p {
   margin: 0 0 28px 0;
-<<<<<<< HEAD
-=======
   font-family: 'Halant', serif;  
   text-align: justify;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 }
 
 strong {
@@ -133,22 +112,12 @@ header#teaser h1 {
 /* Links
 ================================================== */
 a {
-<<<<<<< HEAD
-  color: #F40034;
-=======
   color: #0645AD;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   text-decoration: none;
   -webkit-transition: color .2s ease-in-out;
      -moz-transition: color .2s ease-in-out;
           transition: color .2s ease-in-out;
 }
-<<<<<<< HEAD
-a:hover {
-  color: #F40034;
-}
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 
 /*  Layout
 ================================================== */
@@ -160,10 +129,6 @@ a:hover {
 }
 
 /* Containers to keep content to a set width */
-<<<<<<< HEAD
-.nav,
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 .art-header-inner,
 .footer,
 .art-list,
@@ -171,10 +136,6 @@ a:hover {
 .fourohfour {
   width: 980px;
 }
-<<<<<<< HEAD
-.nav,
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 .art-body-inner,
 .footer,
 .art-list,
@@ -186,71 +147,14 @@ a:hover {
 
 /*  Nav
 ================================================== */
-<<<<<<< HEAD
-.nav {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  height: 70px;
-  padding-top: 40px;
-  margin-left: -490px; /* Half width of nav */
-  border-bottom: 1px solid #333;
-  z-index: 2;
-}
-.nav.fixed {
-  position: fixed;
-}
-#logo {
-  float: left;
-}
-.nav-primary {
-  float: right;
-}
-.nav-primary li {
-  display: inline-block;
-  margin-left: 10px;
-  font-weight: 500;
-}
-#logo h1,
-.nav-primary li,
-.nav-primary li a {
-  font-family: "proxima-nova", "helvetica neue", "helvetica", sans-serif;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 30px;
-  color: #000;
-  text-transform: uppercase;
-}
-
-#logo h1 {
-  height: 30px;
-  margin-left: 0px;
-  letter-spacing: 1px;
-  font-family: 'Questrial', sans-serif;
-  font-size: 30px;
-}
-
-#logo h1 span{
-  color: #F40034 !important;
-}
-
-.nav li:first-child {
-  margin-left: 0; /* Remove left margin from the first nav li */
-}
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 
 /* Home Page 
 ================================================== */
 
-<<<<<<< HEAD
-div#home {}
-=======
 div#home {
   /*margin-top: 2%;*/
 
 }
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 
 #home > div.cover {
   max-width: 980px;
@@ -292,18 +196,6 @@ div.cover > img {
 .art-title,
 .art-subtitle {
   text-align: center;
-<<<<<<< HEAD
-  text-transform: uppercase;
-}
-.art-time {
-  font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 4px;
-}
-.art-title {
-  font-size: 100px;
-  line-height: .9;
-=======
 }
 .art-time {
   font-size: 14px;
@@ -315,7 +207,6 @@ div.cover > img {
 .art-title {
   font-size: 81px;
   line-height: 100px;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   letter-spacing: -2px;
   width: 100%;
 }
@@ -355,17 +246,6 @@ div.cover > img {
   font-size: 21px;
   line-height: 1.5;
 }
-<<<<<<< HEAD
-.art-body-inner a:hover {
-  border-bottom: 1px solid #F40034;
-  padding-bottom:2px;
-}
-.art-body-inner ul,
-.art-body-inner ol { /* For lists in the article body */
-  margin-bottom: 26px;
-}
-.art-body-inner ul li {
-=======
 .art-body-inner ul,
 .art-body-inner ol { /* For lists in the article body */
   font-family: 'Halant', serif;
@@ -375,7 +255,6 @@ div.cover > img {
 
 .art-body-inner ul li {
   margin-bottom:10px;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   list-style: disc;
 }
 
@@ -474,11 +353,7 @@ div.cover > img {
 }
 .art-list-title {
   font-size: 26px;
-<<<<<<< HEAD
-  line-height: 26px;
-=======
   line-height: 35px;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   font-weight: 700;
 }
 .art-list-item-title-and-time {
@@ -488,10 +363,7 @@ div.cover > img {
 }
 .art-list-time {
   font-size: 12px;
-<<<<<<< HEAD
-=======
   font-family: 'Open Sans', sans-serif;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -501,24 +373,15 @@ div.cover > img {
   color: #000;
 }
 .art-list-title a:hover {
-<<<<<<< HEAD
-  color: #F40034;
-=======
   color: #0645AD;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 }
 .art-list-item p {
   width: 65%;
   float: left;
   margin-left: 5%;
   margin-bottom: 0;
-<<<<<<< HEAD
-  font-size: 16px;
-  line-height: 24px;
-=======
   font-size: 20px;
   line-height: 30px;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 }
 
 
@@ -604,11 +467,7 @@ nav.pagination{
 .art-header.white {
   background-color: #111;
 }
-<<<<<<< HEAD
-.art-header.white .art-time,
-=======
 .art-header.white,
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 .art-header.white .art-title,
 .art-header.white .art-subtitle {
   color: #fff;
@@ -657,11 +516,7 @@ nav.pagination{
 ================================================== */
 
 code, tt {
-<<<<<<< HEAD
-background: #ededee;
-=======
 background: #E1F5FE;
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 color: #3C4043;
 font-size: 90%;
 padding: 1px 3px;
@@ -699,10 +554,6 @@ padding: 0;
 ================================================== */
 @media only screen and (max-width: 1080px) {
   /* Set all of the 980 containers to flexible width */
-<<<<<<< HEAD
-  .nav,
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   .art-body-inner,
   .art-header-inner,
   .footer,
@@ -711,10 +562,6 @@ padding: 0;
   .fourohfour {
     width: 90%;
   }
-<<<<<<< HEAD
-  .nav,
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   .art-header-inner {
     margin-left: -45%;
   }
@@ -722,15 +569,6 @@ padding: 0;
 
 @media only screen and (max-width: 1024px) {
   /* Everything becomes scrolling and non-fading */
-<<<<<<< HEAD
-  .nav,
-  .nav.fixed {
-    position: relative;
-    opacity: 1 !important; /* Important to override JS values */
-    display: inline-block;
-  }
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   .art-header-inner {
     position: relative;
     top: 0 !important; /* Important to override JS values */
@@ -771,13 +609,6 @@ padding: 0;
   .art-time {
     font-size: 12px;
   }
-<<<<<<< HEAD
-  .nav {
-    padding-top: 25px;
-    height: 55px;
-  }
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   .art-list-item-title-and-time,
   .art-list-item p {
     float: none;
@@ -794,19 +625,9 @@ padding: 0;
   .nav-primary li {
     margin-left: 10px;
   }
-<<<<<<< HEAD
-  .nav #logo h1 {
-    font-size: 16px;
-    letter-spacing: -1px;
-  }
-  .nav li a {
-    font-size: 12px;
-  }
-=======
   .art-title {
   line-height: 45px;
 }
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
   .art-header {
     padding-bottom: 50px;
   }
@@ -888,10 +709,6 @@ img.right {
 .art-list:after {
   clear:both;
 }
-<<<<<<< HEAD
-.nav,
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 .art-body-inner,
 .footer,
 .art-list {
@@ -922,10 +739,6 @@ img.right {
 }
 
 .art-list,
-<<<<<<< HEAD
-.nav,
-=======
->>>>>>> Updated Bentley Ghost Theme to be consistent with Freelancer Bootstrap navbar
 .abt,
 .art-body {
   -webkit-animation: le-fade .5s 0s 1 ease-out;
